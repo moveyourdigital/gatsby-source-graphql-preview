@@ -4,6 +4,13 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+>>>>>>> Initial commit
 
 # Runtime data
 pids
@@ -16,11 +23,19 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+<<<<<<< HEAD
+=======
+*.lcov
+>>>>>>> Initial commit
 
 # nyc test coverage
 .nyc_output
 
+<<<<<<< HEAD
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+=======
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+>>>>>>> Initial commit
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -29,22 +44,44 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+<<<<<<< HEAD
 # Compiled binary addons (http://nodejs.org/api/addons.html)
+=======
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+>>>>>>> Initial commit
 build/Release
 
 # Dependency directories
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
 # Typescript v1 declaration files
 typings/
 
+=======
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+>>>>>>> Initial commit
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
+=======
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+>>>>>>> Initial commit
 # Optional REPL history
 .node_repl_history
 
@@ -56,6 +93,7 @@ typings/
 
 # dotenv environment variables file
 .env
+<<<<<<< HEAD
 
 .cache/
 public
@@ -64,3 +102,37 @@ yarn-error.log
 README.html
 
 .wordpress-cache
+=======
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and *not* Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+>>>>>>> Initial commit

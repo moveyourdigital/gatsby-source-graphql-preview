@@ -1,0 +1,1 @@
+# gatsby-source-graphql-preview
